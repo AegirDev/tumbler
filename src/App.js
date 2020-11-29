@@ -1186,8 +1186,8 @@ initateEthereum = async () => {
                                 (even zero). Do not send zero BUCC directly to the key address, you cannot have any direct traces or contact with 
                                 it. Once your key address is added, you can freely send your asset of ERC20 token or Ethereum from your key address, 
                                 to any address which has been whitelisted into the BUCC contract. You should observe deposits into the contract and 
-                                if the depositing activity is busy, feel free to withdraw at any time. The BUCC tumbler contract has been verified 
-                                <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code" target="_blank">here</a>.
+                                if the depositing activity is busy, feel free to withdraw at any time. The BUCC tumbler contract has been 
+                                verified <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code" target="_blank">here</a>.
                                 </Text>
                                 <hr className="whiteHRLINE" />
                               </Card.Body>
