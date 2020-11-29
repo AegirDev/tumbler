@@ -1,8 +1,108 @@
-.colorRed {
-  background: #d32d3d !important;
-  background-color: #d32d3d !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet');
 
 .overflowKey {
     overflow: hidden !important;
+}
+
+/* New Stylesheets Imported */
+body {
+  background-color: black !important;
+}
+
+/* TEXT */
+.input {
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+.text {
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+.headerText {
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+  background: -webkit-linear-gradient(left, #C0C0C0 0%,#D3D3D3 24%,#D3D3D3 36%,#C0C0C0 46%,#C0C0C0 52%,#C0C0C0 58%,#C0C0C0 67%,#000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  transition: 25s;
+  animation: font-shine 25s infinite linear;
+}
+
+.fadeOut {
+  color: #C0C0C0 !important;
+  opacity: 0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+  -webkit-transition: opacity 10s ease-in-out !important;
+  -moz-transition: opacity 10s ease-in-out !important;
+  -ms-transition: opacity 10s ease-in-out !important;
+  -o-transition: opacity 10s ease-in-out !important;
+}
+
+.fadeIn {
+  opacity: 1 !important;
+  visibility: visible;
+  color: #C0C0C0 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+  -webkit-transition: opacity 1s ease-in-out !important;
+  -moz-transition: opacity 1s ease-in-out !important;
+  -ms-transition: opacity 1s ease-in-out !important;
+  -o-transition: opacity 1s ease-in-out !important;
+}
+
+/* IMAGE AND HEADER */
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin: auto;
+}
+
+/* HEADER & NAVBAR */
+.shareButtonSpacing {
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-right: .3vh;
+}
+
+/* BUTTONS */
+.spaceButton{
+  margin-right: 2vw !important;
+}
+
+.buttonFormat {
+  font-family: 'Noto Sans', sans-serif !important;
+  margin-bottom: 2vw !important;
+}
+
+.buttonFormat:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.blacken {
+  background-color: #000000 !important;
+}
+
+/* ANIMAIONS */
+@keyframes font-shine {
+  0% {background-position: 0% 0}
+  100% {background-position: -100% 0}
+}
+
+/* CARD DESIGN */
+.whiteHRLINE {
+  background-color: #C0C0C0 !important;
+  height: .1vh !important;
+}
+
+.adjustCardBody {
+  background-color: #000000 !important;
+}
+
+.lastCard {
+  margin-top: 5vw !important; 
+  margin-bottom: 5vw !important;
 }
