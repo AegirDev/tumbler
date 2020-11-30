@@ -741,8 +741,7 @@ initateEthereum = async () => {
                   <Col>
                   <Text className="text"
                         fontSize={[ 3 ]}>
-                        You are not subscribed. It costs {this.state.subscriptionFee / 10000000000} BUCC token to subscribe for one month. Doing so will
-                        allow you to tumble ETH and tokens during that time.
+                        You are not currently subscribed to Havok. Subscription costs {this.state.subscriptionFee / 10000000000} BUCC and gives an unlimited amount of tumbles for any value amount you wish for a period of 30 days. You must renew this manually in order to use Havok for longer periods of time. 
                   </Text>
                   </Col>
                   <Col md={2}>
@@ -1169,25 +1168,12 @@ initateEthereum = async () => {
                                   fontSize={[ 2 ]}
                                   color='primary'
                                   className="text">
-                                Havok is the world's premiere privacy tumbler for Ethereum. It allows the tumbling of both Ethereum and 
-                                all ERC20 standard tokens to any address and even directly to exchanges. It uses BUCC's sophisticated 
-                                privacy engine for titanium proof security and ability to crack traces. It is both significantly cheaper, 
-                                faster and more secure than any other standard tumbler for Ethereum today. However, tumbling indeed is the 
-                                weakest form of security, therefore you must make several precautions. Never withdraw the same amount you 
-                                deposited, rather one should withdraw in amounts. Second, do not withdraw if you are the only asset holder 
-                                as it would be easy to recognize the withdrawing wallet. Third, if you are the largest depositor of any 
-                                asset, take care to withdraw no more than the next largest depositor. Meaning, if someone deposits five tokens 
-                                and put in 10, don't take out six or seven, take out an amount like three.
-                                <br /><br />
-                                To use the tumbler is really quite simple. First you must subscribe and to do so, you must approve and deposit 
-                                one BUCC token. This BUCC token is a fee and is billed (non-recurring) as a subscription and allows one month 
-                                (or 30 days) of access to the tumbler to deposit funds. All fees go directly to the BUCC farm, Sargasso. Next, 
-                                must add a key, which is just another address that has been whitelisted, meaning sent any amount of BUCC before 
-                                (even zero). Do not send zero BUCC directly to the key address, you cannot have any direct traces or contact with 
-                                it. Once your key address is added, you can freely send your asset of ERC20 token or Ethereum from your key address, 
-                                to any address which has been whitelisted into the BUCC contract. You should observe deposits into the contract and 
-                                if the depositing activity is busy, feel free to withdraw at any time. The BUCC tumbler contract has been 
-                                verified <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code" target="_blank">here</a>.
+                                  Welcome to the world's first on-chain ETH and ERC-20 tumbler. Havok uses the BUCC Engine that powers everything else in the Buccaneer ecosystem, from the private farm — Sargasso, to BUCC itself, the world's first on-chain private currency. Havok is significantly cheaper, faster and more secure than any other existing tumbler service, while also being the only one that is fully immutable. Havok's flexibility lets users tumble any amount of ETH and ERC-20s with no need for certain set amounts of value. 
+                                  <br /><br />
+                                  To use Havok, simply subscribe and then make a deposit from the wallet you subscribed with. After you have deposited, you must add a key, which is another Ethereum address used in tandem for withdrawing from Havok that has received any amount of BUCC previously, or had a 0 BUCC transaction sent to it. Once your key address has been added, you can send ETH or any ERC-20 to Havok from your subscribing address. Due to the fact that all tumblers work with pools, you must pay attention to pooled amounts of any given asset and practice basic common sense, such as not depositing a specific amount and then withdrawing it in whole immediately afterwards. Do not attempt to tumble BUCC with Havok, as this will not work. 
+                                  Havok's contract has been verified and can be viewed <a href="https://etherscan.io/address/0x0ffaa8eeb2ee18c9174e4c5d6af6ce48199c6879#code" target="_blank">here</a>.
+                                  <br /><br />
+                                  A detailed guide for Havok will be available soon.
                                 </Text>
                                 <hr className="whiteHRLINE" />
                               </Card.Body>
